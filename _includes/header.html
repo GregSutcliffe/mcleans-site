@@ -13,17 +13,13 @@
         </svg>
       </a>
 
-      <div>
-        <a class='info-head'>Next Talk:</a>
-        <a class='info-text'>3rd May: Jonathan Riddell - KDE Neon</a>
-      </div>
-
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
+        <a class='info-text'> | Tel: 01764 681749</a>
       </div>
     </nav>
 
