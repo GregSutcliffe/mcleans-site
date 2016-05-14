@@ -1,0 +1,10 @@
+*.swp
+deploy/*
+_site
+*.DS_Store
+.rvmrc
+.idea/*
+.ruby-version
+.ruby-gemset
+.bundle
+Gemfile.lock

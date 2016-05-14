@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: FalkirkLUG
+email: admin@falkirklug.org
+description: > # this means to ignore newlines until "baseurl:"
+  FalkirkLUG (Linux User Group) is a group that meet monthly for fun
+  techy discussions, along with a meal and a drink or two.Falkirklug
+  is free to attend, so come along and see for yourself!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://falkirklug.github.io" # the base hostname & protocol for your site
+twitter_username: gwmngilfen
+github_username:  FalkirkLUG
+gplus_url: https://plus.google.com/b/115476628113417487323/115476628113417487323/about
+
+# Build settings
+markdown: kramdown
