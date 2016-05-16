@@ -10,10 +10,9 @@ title: McLeans
 email: mcleans@mcleans.co.uk
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://macleans.emeraldreverie.org" # the base hostname & protocol for your site
-twitter_username: todo
-github_username: todo
-gplus_url: todo
-facebook_page: todo
+
+# Links
+facebook_url: 'https://www.facebook.com/Mcleans-Ice-Cream-Parlour-and-Pizzeria-215720468797870'
 
 pages:
 - title: Menu
