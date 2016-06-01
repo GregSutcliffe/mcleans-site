@@ -14,12 +14,13 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-        <a> | Tel: 01764 681749</a>
+          {% for page in site.pages %}
+            {% if page.title %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+          |
+          <a href='callto:+441764681749'>Tel: 01764 681749</a>
       </div>
     </nav>
 
