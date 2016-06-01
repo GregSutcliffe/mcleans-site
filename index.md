@@ -11,13 +11,6 @@ layout: default
   </div>
 
   <div class="floatoneline">
-    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-    <div style='overflow:hidden;height:300px;width:420px;'>
-      <div id='gmap_canvas' style='height:300px;width:420px;'></div>
-      <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
-    </div>
-    <a href='https://mapswebsite.net/'>google maps widget</a>
-    <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=cbdee0669b6cce22be55ee0bc1f5a73c6db93c2d'></script>
-    <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(56.332706852542536,-3.8333335777709765),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(56.332706852542536,-3.8333335777709765)});infowindow = new google.maps.InfoWindow({content:'<strong>McLeans</strong><br>Drummond St<br> Muthill<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2630.3498986142113!2d-3.833178042279488!3d56.33238725380183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1464808803055" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
