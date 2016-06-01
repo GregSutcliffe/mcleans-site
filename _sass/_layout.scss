@@ -270,3 +270,16 @@
   overflow: auto;
   width: 100%;
 }
+
+// Tables
+.menutable {
+  border-collapse: collapse;
+
+  > table {
+    width:100%;
+  }
+  > table, td {
+    border: 1px solid black;
+    padding: 10px ;
+  }
+}

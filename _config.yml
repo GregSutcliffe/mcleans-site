@@ -16,7 +16,7 @@ phone_url: '+441764681749'
 # Links
 facebook_url: 'https://www.facebook.com/Mcleans-Ice-Cream-Parlour-and-Pizzeria-215720468797870'
 
-pages:
+nav:
 - title: Menu
   url: menu.html
 
