@@ -7,7 +7,7 @@
 
 # Site settings
 title: McLeans Ice Cream
-email: admin@mcleansicecream.com
+email: info@mcleansicecream.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mcleansicecream.com" # the base hostname & protocol for your site
 phone_text: '01764 681749'
@@ -18,7 +18,7 @@ facebook_url: 'https://www.facebook.com/Mcleans-Ice-Cream-Parlour-and-Pizzeria-2
 
 pages:
 - title: Menu
-  urk: menu.html
+  url: menu.html
 
 # Build settings
 markdown: kramdown
