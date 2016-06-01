@@ -12,6 +12,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mcleansicecream.com" # the base hostname & protocol for your site
 phone_text: '01764 681749'
 phone_url: '+441764681749'
+opening_hours:
+- days: 'Tues - Sat'
+  hours: '11am - 9pm'
+- days: 'Sun & Mon'
+  hours: 'Closed'
 
 # Links
 facebook_url: 'https://www.facebook.com/Mcleans-Ice-Cream-Parlour-and-Pizzeria-215720468797870'

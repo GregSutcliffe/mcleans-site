@@ -42,8 +42,9 @@
       <div class="footer-col footer-col-3">
         <table>
           <tr><th>Opening Hours</th></tr>
-          <tr><td>Tues - Sat</td><td>11am - 9pm</td>
-          <tr><td>Sun & Mon</td><td>Closed</td>
+          {% for time in site.opening_hours %}
+              <tr><td>{{ time.days }}</td><td>{{ time.hours }}</td>
+          {% endfor %}
         </table>
       </div>
     </div>
